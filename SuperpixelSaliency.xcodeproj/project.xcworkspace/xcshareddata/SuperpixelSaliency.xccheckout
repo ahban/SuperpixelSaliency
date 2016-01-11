@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>31DC46A7-B77D-4C2B-9F4D-4F3939C97F1C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SuperpixelSaliency</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1A39AB8B0837D0F4ABA184D90189645D99E0C3E7</key>
+		<string>github.com:shota-takayama/SuperpixelSaliency.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SuperpixelSaliency.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1A39AB8B0837D0F4ABA184D90189645D99E0C3E7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:shota-takayama/SuperpixelSaliency.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1A39AB8B0837D0F4ABA184D90189645D99E0C3E7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1A39AB8B0837D0F4ABA184D90189645D99E0C3E7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SuperpixelSaliency</string>
+		</dict>
+	</array>
+</dict>
+</plist>
