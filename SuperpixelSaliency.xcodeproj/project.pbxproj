@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B949EE751B3D3AB200BCACE9 /* SuperpixelHandling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B949EE731B3D3AB200BCACE9 /* SuperpixelHandling.cpp */; };
 		B9679E341C4396750007E93A /* libSLIC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9679E331C4396750007E93A /* libSLIC.a */; };
-		B980766C1B42591F00BA980C /* OpticalFlow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B980766A1B42591F00BA980C /* OpticalFlow.cpp */; };
+		B987C05A1C439B4300D6FBA7 /* libOpticalFlow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B987C0591C439B4300D6FBA7 /* libOpticalFlow.a */; };
 		B9E1A2EC1B3D17560058FE19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E1A2E91B3D17560058FE19 /* main.cpp */; };
 		B9FF23D71B9812F800DE94B4 /* libopencv_core.2.4.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FF23D31B9812F800DE94B4 /* libopencv_core.2.4.12.dylib */; };
 		B9FF23D81B9812F800DE94B4 /* libopencv_highgui.2.4.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FF23D41B9812F800DE94B4 /* libopencv_highgui.2.4.12.dylib */; };
@@ -34,8 +34,8 @@
 		B949EE741B3D3AB200BCACE9 /* SuperpixelHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpixelHandling.h; sourceTree = "<group>"; };
 		B9679E331C4396750007E93A /* libSLIC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSLIC.a; path = ../_Library/SLIC/SLIC/libSLIC.a; sourceTree = "<group>"; };
 		B9679E351C4396850007E93A /* SLIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLIC.h; path = ../../_Library/SLIC/SLIC/SLIC.h; sourceTree = "<group>"; };
-		B980766A1B42591F00BA980C /* OpticalFlow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpticalFlow.cpp; sourceTree = "<group>"; };
-		B980766B1B42591F00BA980C /* OpticalFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpticalFlow.h; sourceTree = "<group>"; };
+		B987C0591C439B4300D6FBA7 /* libOpticalFlow.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOpticalFlow.a; path = ../_Library/OpticalFlow/OpticalFlow/libOpticalFlow.a; sourceTree = "<group>"; };
+		B987C05B1C439B5400D6FBA7 /* OpticalFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpticalFlow.h; path = ../../_Library/OpticalFlow/OpticalFlow/OpticalFlow.h; sourceTree = "<group>"; };
 		B9E1A2D61B3D159A0058FE19 /* SuperpixelSaliency */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SuperpixelSaliency; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E1A2E81B3D17560058FE19 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
 		B9E1A2E91B3D17560058FE19 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -50,11 +50,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9679E341C4396750007E93A /* libSLIC.a in Frameworks */,
 				B9FF23D71B9812F800DE94B4 /* libopencv_core.2.4.12.dylib in Frameworks */,
 				B9FF23D81B9812F800DE94B4 /* libopencv_highgui.2.4.12.dylib in Frameworks */,
 				B9FF23D91B9812F800DE94B4 /* libopencv_imgproc.2.4.12.dylib in Frameworks */,
 				B9FF23DA1B9812F800DE94B4 /* libopencv_video.2.4.12.dylib in Frameworks */,
+				B987C05A1C439B4300D6FBA7 /* libOpticalFlow.a in Frameworks */,
+				B9679E341C4396750007E93A /* libSLIC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,11 +65,12 @@
 		B9E1A2CD1B3D159A0058FE19 = {
 			isa = PBXGroup;
 			children = (
-				B9679E331C4396750007E93A /* libSLIC.a */,
 				B9FF23D31B9812F800DE94B4 /* libopencv_core.2.4.12.dylib */,
 				B9FF23D41B9812F800DE94B4 /* libopencv_highgui.2.4.12.dylib */,
 				B9FF23D51B9812F800DE94B4 /* libopencv_imgproc.2.4.12.dylib */,
 				B9FF23D61B9812F800DE94B4 /* libopencv_video.2.4.12.dylib */,
+				B987C0591C439B4300D6FBA7 /* libOpticalFlow.a */,
+				B9679E331C4396750007E93A /* libSLIC.a */,
 				B9E1A2D81B3D159A0058FE19 /* SuperpixelSaliency */,
 				B9E1A2D71B3D159A0058FE19 /* Products */,
 			);
@@ -86,10 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				B9E1A2E91B3D17560058FE19 /* main.cpp */,
-				B980766A1B42591F00BA980C /* OpticalFlow.cpp */,
-				B949EE731B3D3AB200BCACE9 /* SuperpixelHandling.cpp */,
-				B980766B1B42591F00BA980C /* OpticalFlow.h */,
+				B987C05B1C439B5400D6FBA7 /* OpticalFlow.h */,
 				B9679E351C4396850007E93A /* SLIC.h */,
+				B949EE731B3D3AB200BCACE9 /* SuperpixelHandling.cpp */,
 				B949EE741B3D3AB200BCACE9 /* SuperpixelHandling.h */,
 				B9E1A2E81B3D17560058FE19 /* Define.h */,
 			);
@@ -152,7 +153,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B980766C1B42591F00BA980C /* OpticalFlow.cpp in Sources */,
 				B949EE751B3D3AB200BCACE9 /* SuperpixelHandling.cpp in Sources */,
 				B9E1A2EC1B3D17560058FE19 /* main.cpp in Sources */,
 			);
@@ -250,6 +250,7 @@
 					"$(inherited)",
 					/usr/local/Cellar/opencv/2.4.12/lib,
 					"/Users/takayama/Documents/Program/C++/_Library/SLIC/SLIC",
+					"/Users/takayama/Documents/Program/C++/_Library/OpticalFlow/OpticalFlow",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -267,6 +268,7 @@
 					"$(inherited)",
 					/usr/local/Cellar/opencv/2.4.12/lib,
 					"/Users/takayama/Documents/Program/C++/_Library/SLIC/SLIC",
+					"/Users/takayama/Documents/Program/C++/_Library/OpticalFlow/OpticalFlow",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
